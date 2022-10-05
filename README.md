@@ -2,16 +2,16 @@
 Best buffered ranking: The best buffered-ranking for a DMU is the highest upper buffered-ranking over all feasible settings of input/output multipliers. Here, the upper buffered-ranking for a DMU is the maximum *k* that the average of the top *k* efficient scores is higher than or equal to this DMU.
 
 ## Requirements:
-[Gurobi](http://www.gurobi.com "Gurobi"): for all Mixed-integer linear programming
-[CVX](http://cvxr.com/cvx/ "CVX"): for all continuous linear programming
+- [Gurobi](http://www.gurobi.com "Gurobi"): for all Mixed-integer linear programming
+- [CVX](http://cvxr.com/cvx/ "CVX"): for all continuous linear programming
 
 ## Usage
-function BestDiffBuffRankFun
-function WorstDiffBuffRankFun
-function BestDiffRankOpt
-function WorstDiffRankOpt
-function BestRatioRankOpt
-function WorstRatioRankOpt
+- function BestDiffBuffRankFun
+- function WorstDiffBuffRankFun
+- function BestDiffRankOpt
+- function WorstDiffRankOpt
+- function BestRatioRankOpt
+- function WorstRatioRankOpt
 ### %Aim 
 - %Estimate the best buffered-ranking of the viral profit efficiency of iDMUo among DMUs (mInput,mOutput)
 
